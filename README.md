@@ -1,5 +1,5 @@
 # Go Development Docker container
----
+
 ### Overview
 The purpose of this container is to remove the need to install go on your local machine. Simply run this container and mount your local code to the /gocode directory. The CMD is set to run /bin/bash and the `PATH` and `GOPATH` environment variables are set when building the container so all you need to do is run the container and your ready to run your go program!
 
